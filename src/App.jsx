@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./Sections/Nav";
+import Nav from "./Components/Nav";
 import Hero from "./Sections/Hero";
 import PopularProducts from "./Sections/PopularProducts";
 import SuperQuality from "./Sections/SuperQuality";
@@ -10,7 +10,7 @@ import Subscribe from "./Sections/Subscribe";
 import Footer from "./Sections/Footer";
 const App = () => (
   <main className="relative">
-    {/* <Nav /> */}
+    <Nav />
     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
