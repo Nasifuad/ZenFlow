@@ -1,11 +1,7 @@
 import React from "react";
 
 const Shoe = ({ imgUrl, changeBigShoeImg, bigShoeImg }) => {
-  const hadleClick = () => {
-    if (imgUrl.bigShoe !== bigShoeImg) {
-      changeBigShoeImg(imgUrl.bigShoe);
-    }
-  };
+  const hadleClick = () => {};
   return (
     <div
       className={`border-2 rounded-xl cursor-pointer

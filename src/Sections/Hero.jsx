@@ -48,13 +48,13 @@ const Hero = () => {
           height={500}
           className="object-contain relative z-10"
         />
-      </div>
-      <div className="flex flex-wrap justify-center items-center gap-4 mt-5 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6 ">
-        {shoes.map((shoe) => (
-          <div key={shoe}>
-            <Shoe imgUrl={shoe} changeBigShoeImg={() => {}} bigShoeImg="" />
-          </div>
-        ))}
+        <div className="flex flex-wrap justify-center items-center gap-4 mt-5 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6 ">
+          {shoes.map((shoe, index) => (
+            <div key={shoe.bigShoe}>
+              <Shoe imgUrl={shoe} changeBigShoeImg={() => {}} bigShoeImg="" />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
