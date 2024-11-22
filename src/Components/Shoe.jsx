@@ -1,12 +1,16 @@
 import React from "react";
 
 const Shoe = ({ imgUrl, changeBigShoeImg, bigShoeImg }) => {
-  const hadleClick = () => {};
+  const hadleClick = () => {
+    if (bigShoeImg != imgUrl.bigShoe) {
+      changeBigShoeImg(imgUrl.bigShoe);
+    }
+  };
   return (
     <div
       className={`border-2 rounded-xl cursor-pointer
     ${
-      bigShoeImg === imgUrl?.bigShoe ? "border-coral-red" : "border-transparent"
+      bigShoeImg === imgUrl.bigShoe ? "border-coral-red" : "border-transparent"
     } max-sm:flex-1
     `}
       onClick={hadleClick}
