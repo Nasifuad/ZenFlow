@@ -52,7 +52,7 @@ const Hero = () => {
           height={500}
           className="object-contain  relative z-10"
         />
-        <div className="flex flex-wrap justify-center items-center gap-4 mt-5 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6 ">
+        <div className="flex  justify-center items-center gap-4 mt-5 absolute  -bottom-[5%] sm:left-[10%] max-sm:px-6  ">
           {shoes.map((shoe, index) => (
             <div key={shoe.bigShoe}>
               <Shoe
