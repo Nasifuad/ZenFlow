@@ -29,7 +29,13 @@ const Nav = () => {
           })}
         </ul>
         <a href="/">
-          <img src={hamburger} alt="menu" width={25} height={25} />
+          <img
+            className="xl:hidden cursor-pointer"
+            src={hamburger}
+            alt="menu"
+            width={25}
+            height={25}
+          />
         </a>
       </nav>
     </header>
