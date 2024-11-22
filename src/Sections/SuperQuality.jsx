@@ -6,7 +6,7 @@ const SuperQuality = () => {
     <section className="flex items-start justify-between gap-5 xl:gap-10 w-full max-container">
       <div className="flex flex-col items-start justify-between gap-10 max-w-sm">
         <h2 className="font-palanquin text-4xl font-bold">
-          We Provie You <span className="text-coral-red">Super</span>
+          We Provied You <span className="text-coral-red">Super</span>
           <span className="text-emerald-500"> Quality</span> Shoes
         </h2>
         <p>

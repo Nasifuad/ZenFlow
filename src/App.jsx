@@ -26,7 +26,7 @@ const App = () => (
     <section className="padding">
       <SpecialOffers />
     </section>
-    <section className="padding">
+    <section className="bg-pale-blue padding">
       <CustomerReviews />
     </section>
     <section className="padding-x sm:py-32 py-16 w-full">
@@ -35,6 +35,7 @@ const App = () => (
     <section className="bg-black padding-x padding-t pb-8">
       <Footer />
     </section>
+    <section></section>
   </main>
 );
 export default App;
