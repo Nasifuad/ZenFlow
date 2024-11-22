@@ -3,7 +3,10 @@ import { services } from "../constants";
 import ServiceCard from "../Components/ServiceCard";
 const Services = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center">
+    <div
+      id="services"
+      className="w-full flex flex-col justify-center items-center"
+    >
       <h1 className="font-palanquin text-4xl font-bold mb-5">
         Our <span className="text-amber-500">Services</span>
       </h1>
