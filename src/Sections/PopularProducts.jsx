@@ -5,7 +5,7 @@ const PopularProducts = () => {
     <>
       <section
         id="products"
-        className="flex flex-col items-start justify-center"
+        className="flex flex-col items-start justify-center max-container gap-10"
       >
         <h3 className="font-palanquin text-4xl font-bold">
           Our <span className="text-coral-red">Popular</span> Products

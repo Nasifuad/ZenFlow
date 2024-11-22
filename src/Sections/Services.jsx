@@ -7,7 +7,7 @@ const Services = () => {
       <h1 className="font-palanquin text-4xl font-bold mb-5">
         Our <span className="text-amber-500">Services</span>
       </h1>
-      <div className="w-full flex gap-5 justify-around items-center">
+      <div className="w-full flex gap-5 justify-around items-center flex-wrap">
         {services.map((service) => (
           <ServiceCard key={service.label} service={service} />
         ))}

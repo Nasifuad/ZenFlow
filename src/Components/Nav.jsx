@@ -5,8 +5,8 @@ import { hamburger } from "../assets/icons";
 import { navLinks } from "../constants/index";
 const Nav = () => {
   return (
-    <header className="bg-slate-800 padding-x py-8  w-full absolute z-10 ">
-      <nav className="flex justify-between items-center max-container">
+    <header className=" padding-x py-8  w-full absolute z-10 shadow-xl ">
+      <nav className="flex justify-between items-center max-container w-full ">
         <a
           href="/"
           className="opacity-90 hover:scale-110 transition-all hover:opacity-100 cursor-pointer"
@@ -20,7 +20,7 @@ const Nav = () => {
                 <a
                   href={link.href}
                   className="font-montserrat leading-normal text-lg text-slate-gray
-                  hover:text-white hover:scale-110 transition-all
+                  hover:text-slate-900 hover:scale-110 transition-all
                   "
                 >
                   {link.label}
