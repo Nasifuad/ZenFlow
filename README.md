@@ -1,8 +1,9 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ZenFlow
+ZenFlow is an innovative platform for sports enthusiasts, offering a seamless shopping experience for high-quality sports items.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+🚀 Task Assignment System: Efficiently manage user tasks with an intuitive interface.
+💼 User-Friendly Design: Responsive and accessible across all devices.
+🌟 Dynamic Product Listings: Explore a wide range of sports items with ease.
+⚡ Interactive Dashboard: Get real-time updates and manage tasks effectively.
