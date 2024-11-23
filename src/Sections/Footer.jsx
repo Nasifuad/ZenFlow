@@ -20,7 +20,10 @@ const Footer = () => {
           <div className="flex gap-4">
             {socialMedia.map((social) => {
               return (
-                <div className="p-2 w-max bg-white rounded-full">
+                <div
+                  key={social.alt}
+                  className="p-2 w-max bg-white rounded-full"
+                >
                   <img src={social.src} alt="" />
                 </div>
               );
@@ -30,7 +33,7 @@ const Footer = () => {
 
         <div className="flex xl:flex-row flex-col  justify-around w-full">
           {footerLinks.map((link) => {
-            return <FooterLinks footerLinks={link} />;
+            return <FooterLinks key={link.title} footerLinks={link} />;
           })}
         </div>
       </div>

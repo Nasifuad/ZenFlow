@@ -4,6 +4,9 @@ import { headerLogo } from "../assets/images";
 import { hamburger } from "../assets/icons";
 import { navLinks } from "../constants/index";
 const Nav = () => {
+  const handleClick = () => {
+    console.log("clicked");
+  };
   return (
     <header className=" padding-x py-8  w-full absolute z-10 shadow-xl ">
       <nav className="flex justify-between items-center max-container w-full ">
@@ -31,6 +34,7 @@ const Nav = () => {
         </ul>
         <a href="/">
           <img
+            onClick={handleClick}
             className="xl:hidden cursor-pointer"
             src={hamburger}
             alt="menu"
