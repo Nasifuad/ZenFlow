@@ -4,8 +4,11 @@ import { footerLinks } from "../constants";
 import FooterLinks from "../Components/FooterLinks";
 const Footer = () => {
   return (
-    <section className="max-container text-white flex flex-col gap-10">
-      <div className=" text-white flex gap-10">
+    <section
+      className="max-container text-white flex  
+    flex-col  gap-10"
+    >
+      <div className=" text-white flex xl:flex-row flex-col gap-10">
         <div className="flex flex-col gap-5">
           <a href="/" className="opacity-90 filter cursor-pointer">
             <img src={footerLogo} alt="Logo" width={130} height={29} />
@@ -24,13 +27,14 @@ const Footer = () => {
             })}
           </div>
         </div>
-        <div className="flex  justify-around w-full">
+
+        <div className="flex xl:flex-row flex-col  justify-around w-full">
           {footerLinks.map((link) => {
             return <FooterLinks footerLinks={link} />;
           })}
         </div>
       </div>
-      <div className="flex w-full justify-between">
+      <div className="flex w-full justify-between gap-20">
         <p className="text-sm ">© 2021 Nasif Fuad. All Rights Reserved</p>
         <p className="text-sm ">Terms & Conditions</p>
       </div>
@@ -39,7 +43,3 @@ const Footer = () => {
 };
 
 export default Footer;
-<div className="max-container absolute bottom-0 flex justify-between ">
-  <p>© 2021 Nasif Fuad. All Rights Reserved</p>
-  <p>Terms & Conditions</p>
-</div>;
