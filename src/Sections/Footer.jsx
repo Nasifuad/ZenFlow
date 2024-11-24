@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex w-full justify-between gap-20">
-        <p className="text-sm ">© 2021 Nasif Fuad. All Rights Reserved</p>
+        <p className="text-sm ">© 2024 Nasif Fuad. All Rights Reserved</p>
         <p className="text-sm ">Terms & Conditions</p>
       </div>
     </section>
