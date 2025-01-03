@@ -9,7 +9,7 @@ import CustomerReviews from "./Sections/CustomerReviews";
 import Subscribe from "./Sections/Subscribe";
 import Footer from "./Sections/Footer";
 const App = () => (
-  // ddffffgjhghjgj
+  // ddffffgjhghjgjdddf
   <main className="relative">
     <Nav />
     <section className="xl:padding-l wide:padding-r padding-b">
