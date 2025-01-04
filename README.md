@@ -6,4 +6,4 @@ Features
 🚀 Task Assignment System: Efficiently manage user tasks with an intuitive interface.
 💼 User-Friendly Design: Responsive and accessible across all devices.
 🌟 Dynamic Product Listings: Explore a wide range of sports items with ease.
-⚡ Interactive Dashboard: Get real-time updates and manage tasks effectively.
+⚡ Interactive Dashboard: Get real-time updates and manage tasks effectively..
